@@ -36,6 +36,32 @@ nav div p {
     font-weight: 700;
 }
 
-nav .icons {
+.icons {
     margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fa-user {
+    font-size: 30px;
+}
+
+.user {
+    margin-left: 20px;
+    padding-right: 30px!important;
+}
+
+.fa-search {
+    font-size: 30px;
+}
+
+.search {}
+
+.fa-shopping-cart {
+    font-size: 30px;
+}
+
+.cart {
+    padding-left: 30px!important;
 }
