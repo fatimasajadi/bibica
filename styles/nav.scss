@@ -1,0 +1,41 @@
+nav {
+    height: 120px;
+    background-color: #f0e1d8;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+nav div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-family: Bungee, sans-serif;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+}
+
+nav div img {
+    width: 80px;
+    height: 80px;
+    margin-left: 200px;
+}
+
+nav div p {
+    color: white;
+    font-size: 22px;
+    margin-left: 10px;
+    text-align: center;
+    flex: 1;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+nav .icons {
+    margin-right: 200px;
+}

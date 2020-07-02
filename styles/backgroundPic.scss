@@ -1,0 +1,60 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgPic {
+    background-size: cover;
+    background-image: url("../images/backgroundPic.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    .hero {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.hero p {
+    font-size: 1.7em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.hero h2 {
+    font-size: 4em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.hero button {
+    outline: none;
+    color: #000000;
+    background-color: #ffffff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    margin: 0;
+    width: auto;
+    line-height: 1.42;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+    cursor: pointer;
+    border: 1px solid transparent;
+    user-select: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    box-sizing: border-box;
+}
